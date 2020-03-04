@@ -52,8 +52,8 @@ def main():
             # print(matches)
             if (matches > 0):
                 match_total += 1
-        else:
-            continue
+            else:
+                continue
     print(match_total)
 
 
